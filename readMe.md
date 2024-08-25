@@ -114,7 +114,7 @@ So now each bin encapsulates two numbers instead of just one.
 
 It's not always obvious what a graph is for based on only the numbers, so there are various ways we can customize the figure we create. For starters, we have a new line graph tracking growth over time:
 
-![mystery plot](basic_plots/plots/mystery_plot.png)
+![mystery plot](plots/mystery_plot.png)
 
 There's not a lot you can tell about this data just from the numbers, so we'll have to add some extra details in order to convey what it represents.
 
@@ -149,7 +149,7 @@ ticks = range(50_000_000, 350_000_001, 25_000_000)
 plt.yticks(ticks)
 ```
 
-![unnamed ticks](basic_plots/plots/unnamed_ticks.png)
+![unnamed ticks](plots/unnamed_ticks.png)
 
 The numbers on the side still aren't a good indication of how big the numbers are, so we can create new display values with the next Python concept, list comprehension. This looks a bit more confusing but is still pretty simple, it's just an easy way to create a new list by manipulating an existing one, following this format:
 
@@ -173,7 +173,7 @@ labels = [f"{tick // 1_000_000}" for tick in ticks]
 plt.yticks(ticks, labels)
 ```
 
-![named ticks](basic_plots/plots/named_ticks.png)
+![named ticks](plots/named_ticks.png)
 
 > Here, "//" is for integer division. By default, Python uses floats - or decimals - for division, so 10 / 5 == 2.0, while 10 // 5 == 2.
 
@@ -183,7 +183,7 @@ Next, it's good practice to remove all the white space you can, by setting a "li
 plt.ylim(75_000_000, 350_000_000)
 ```
 
-![no white space](basic_plots/plots/no_white_space.png)
+![no white space](plots/no_white_space.png)
 
 And finally, we can add labels to everything.
 
@@ -195,7 +195,7 @@ plt.xlabel("Census Year")
 plt.ylabel("Population")
 ```
 
-![population](basic_plots/plots/population_chart.png)
+![population](plots/population_chart.png)
 
 Compared to the completely unformatted plot:
 
