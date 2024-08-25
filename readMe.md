@@ -199,4 +199,4 @@ plt.ylabel("Population")
 
 Compared to the completely unformatted plot:
 
-![mystery plot](basic_plots/plots/mystery_plot.png)
+![mystery plot](plots/mystery_plot.png)
