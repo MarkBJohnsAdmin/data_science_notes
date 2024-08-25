@@ -46,7 +46,7 @@ plt.savefig("plots/big_mac_plot.png")
 
 This will create an image of your plot and place it in your specified directory, or the current directory if none in specified. In this case, I created a "plots" folder ahead of time and placed `big_mac_plot.png` inside it.
 
-![big mac plot](basic_plots/plots/big_mac_plot.png)
+![big mac plot](plots/big_mac_plot.png)
 
 The plt object only keeps track of one plot at a time, so when you're ready to start working on a new one, make sure to use the "clear figure" method to start over:
 
