@@ -74,7 +74,7 @@ plt.savefig("plots/exam_scores.png")
 plt.clf()
 ```
 
-![exam scores](basic_plots/plots/exam_scores.png)
+![exam scores](plots/exam_scores.png)
 
 Even without a clear trajectory, you can still see that a very clear relationship between more hours studied and a higher exam score.
 
@@ -92,7 +92,7 @@ plt.savefig("plots/numbers.png")
 plt.clf()
 ```
 
-![numbers](basic_plots/plots/numbers.png)
+![numbers](plots/numbers.png)
 
 Now you can see there are three 1s, 3s, and 10s, two 2s, 5s, 7s, and 9s, and one 4, 6, and 8.
 
@@ -106,7 +106,7 @@ plt.savefig("plots/five_bins.png")
 plt.clf()
 ```
 
-![five bins](basic_plots/plots/five_bins.png)
+![five bins](plots/five_bins.png)
 
 So now each bin encapsulates two numbers instead of just one.
 
