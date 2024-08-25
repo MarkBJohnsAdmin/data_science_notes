@@ -1,6 +1,6 @@
 # Basic Plots
 
-> *Note - be sure to import that pyplot module in order to use these methods*
+> *Note - be sure to import the pyplot module in order to use these methods*
 
 ```py
 import matplotlib.pyplot as plt
